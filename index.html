@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/script.js" defer></script>
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <main class="container">
+        <img class="imagem" src="img/imagem.svg">
+        <div class="sla">
+            <h2>Calculadora IMC</h2>
+            <form>
+                <div class="campos">
+                    <label>Digite seu Peso:</label>
+                    <input id="peso" type="number" step="0.01" title="digite seu peso">
+                    <label>Digite sua Altura:</label>
+                    <!--step é tipo so vale valores acima daquilo-->
+                    <input id="altura" type="number" step="0.01" title="digite sua altura">
+                </div>
+                <button>
+                    Calcular
+                </button>
+                <div id="exibir">
+                    <span id="texto"></span>
+                    <span id="iemc"></span>
+                </div>
+            </form>
+        </div>
+    </main>
+
+</body>
+</html>

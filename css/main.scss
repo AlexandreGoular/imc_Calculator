@@ -1,0 +1,464 @@
+$fonteLetra: sans-serif;
+body {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 1 );
+    height: 70vh;
+
+    .container {
+
+        display: flex;
+        gap: 3.5rem;
+        margin: auto;
+        display: flex;
+        width: 600px;
+        height: 300px;
+        border: 2px inset white;
+        overflow: hidden;
+        margin-top: 15%;
+        background-color: rgba(0,0,0,7);
+        
+
+        .imagem {
+
+            width: 300px;
+            height: 300px;
+            float: left;
+
+        }
+
+        h2 {
+
+            font-size: $fonteLetra;
+            color: white;
+            text-align:left;
+        }
+
+        form {
+
+            width: 300px;
+
+            .campos {
+
+                border-radius: 5px;
+                background-color: rgb(0, 0, 0);
+
+                label {
+
+                    background-color: rgb(0, 0, 0);
+                    color: white;
+                    display: inline;
+                    margin-left: 10%;
+    
+                }
+
+               
+                #peso {
+                    
+                    background-color: rgb(255, 255, 255);
+                    color: rgb(0, 0, 0);
+                    margin-top: 5px;
+                    text-align: center;
+                    display: block;
+
+                }
+    
+                #altura {
+                    
+                    background-color: rgb(255, 255, 255);
+                    color: black;
+                    text-align: center;
+                    margin-top: 5px;
+                    display: block;
+        
+
+                }
+            }
+
+            button {
+                
+                color: white;
+                background-color: #21c389;
+                padding: 5px;
+                margin-top: 10px;
+                margin-left: 20%;
+                border: none;
+
+            }
+
+           
+            #exibir {
+
+                background-color: rgb(255, 235, 235);
+                margin-top: 6px;
+                width: 180px;
+                height: 50px;
+                text-align: center;
+
+                span {
+
+                    color: rgb(0, 0, 0);
+                    
+                }
+
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 625px) and (min-width: 410px) {
+    body {
+
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: rgba(0, 0, 0, 1 );
+        height: 70vh;
+    
+        .container {
+    
+            display: flex;
+            gap: 3.5rem;
+            margin: auto;
+            display: flex;
+            width: 400px;
+            height: 300px;
+            border: 2px inset white;
+            overflow: hidden;
+            margin-top: 15%;
+            background-color: rgba(0,0,0,7);
+            
+    
+            .imagem {
+    
+                width: 200px;
+                height: 200px;
+                float: left;
+    
+            }
+    
+            h2 {
+    
+                font-size: $fonteLetra;
+                color: white;
+                text-align:left;
+                font-size: 12px;
+            }
+    
+            form {
+    
+                width: 200px;
+    
+                .campos {
+    
+                    border-radius: 5px;
+                    background-color: rgb(0, 0, 0);
+    
+                    label {
+    
+                        background-color: rgb(0, 0, 0);
+                        color: white;
+                        display: inline;
+                        margin-left: 10%;
+        
+                    }
+    
+                   
+                    #peso {
+                        
+                        background-color: rgb(255, 255, 255);
+                        color: rgb(0, 0, 0);
+                        margin-top: 5px;
+                        text-align: center;
+                        display: block;
+    
+                    }
+        
+                    #altura {
+                        
+                        background-color: rgb(255, 255, 255);
+                        color: black;
+                        text-align: center;
+                        margin-top: 5px;
+                        display: block;
+            
+    
+                    }
+                }
+    
+                button {
+                    
+                    color: white;
+                    background-color: #21c389;
+                    padding: 5px;
+                    margin-top: 10px;
+                    margin-left: 20%;
+                    border: none;
+    
+                }
+    
+               
+                #exibir {
+    
+                    background-color: rgb(255, 235, 235);
+                    margin-top: 6px;
+                    width: 180px;
+                    height: 50px;
+                    text-align: center;
+    
+                    span {
+    
+                        color: rgb(0, 0, 0);
+                        
+                    }
+    
+                }
+            }
+        }
+    
+    }
+    
+}
+
+@media screen and (max-width: 410px) {
+    
+    body {
+
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: rgba(0, 0, 0, 1 );
+        height: 70vh;
+    
+        .container {
+    
+            display: flex;
+            gap: 3.5rem;
+            margin: auto;
+            display: flex;
+            width: 300px;
+            height: 300px;
+            border: 2px inset white;
+            overflow: hidden;
+            margin-top: 15%;
+            background-color: rgba(0,0,0,7);
+            
+    
+            .imagem {
+    
+                width: 150px;
+                height: 300px;
+                float: left;
+    
+            }
+    
+            h2 {
+    
+                font-size: $fonteLetra;
+                color: white;
+                text-align:left;
+                font-size: 12px;
+            }
+    
+            form {
+    
+                width: 150px;
+    
+                .campos {
+    
+                    border-radius: 5px;
+                    background-color: rgb(0, 0, 0);
+    
+                    label {
+    
+                        background-color: rgb(0, 0, 0);
+                        color: white;
+                        display: inline;
+                        margin-left: 10%;
+                        font-size: 10px;
+        
+                    }
+    
+                   
+                    #peso {
+                        
+                        background-color: rgb(255, 255, 255);
+                        color: rgb(0, 0, 0);
+                        margin-top: 5px;
+                        text-align: center;
+                        display: block;
+    
+                    }
+        
+                    #altura {
+                        
+                        background-color: rgb(255, 255, 255);
+                        color: black;
+                        text-align: center;
+                        margin-top: 5px;
+                        display: block;
+            
+    
+                    }
+                }
+    
+                button {
+                    
+                    color: white;
+                    background-color: #21c389;
+                    padding: 5px;
+                    margin-top: 10px;
+                    margin-left: 20%;
+                    border: none;
+    
+                }
+    
+               
+                #exibir {
+    
+                    background-color: rgb(255, 235, 235);
+                    margin-top: 6px;
+                    width: 180px;
+                    height: 50px;
+                    text-align: center;
+    
+                    span {
+    
+                        color: rgb(0, 0, 0);
+                        
+                    }
+    
+                }
+            }
+        }
+    
+    }
+}
+
+@media screen and (max-width: 300px) {
+
+    body {
+
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: rgba(0, 0, 0, 1 );
+        height: 70vh;
+    
+        .container {
+    
+            display: flex;
+            gap: 3.5rem;
+            margin: auto;
+            display: flex;
+            width: 300px;
+            height: 300px;
+            border: 2px inset white;
+            overflow: hidden;
+            margin-top: 15%;
+            background-color: rgba(0,0,0,7);
+            
+    
+            .imagem {
+    
+                width: 150px;
+                height: 300px;
+                float: left;
+    
+            }
+    
+            h2 {
+    
+                font-size: 8px;
+                color: white;
+                text-align:left;
+            }
+    
+            form {
+    
+                width: 150px;
+    
+                .campos {
+    
+                    border-radius: 5px;
+                    background-color: rgb(0, 0, 0);
+    
+                    label {
+    
+                        background-color: rgb(0, 0, 0);
+                        color: white;
+                        display: inline;
+                        margin-left: 10%;
+        
+                    }
+    
+                   
+                    #peso {
+                        
+                        background-color: rgb(255, 255, 255);
+                        color: rgb(0, 0, 0);
+                        margin-top: 5px;
+                        text-align: center;
+                        display: block;
+    
+                    }
+        
+                    #altura {
+                        
+                        background-color: rgb(255, 255, 255);
+                        color: black;
+                        text-align: center;
+                        margin-top: 5px;
+                        display: block;
+            
+    
+                    }
+                }
+    
+                button {
+                    
+                    color: white;
+                    background-color: #21c389;
+                    padding: 5px;
+                    margin-top: 10px;
+                    margin-left: 20%;
+                    border: none;
+    
+                }
+    
+               
+                #exibir {
+    
+                    background-color: rgb(255, 235, 235);
+                    margin-top: 6px;
+                    width: 180px;
+                    height: 50px;
+                    text-align: center;
+    
+                    span {
+    
+                        color: rgb(0, 0, 0);
+                        
+                    }
+    
+                }
+            }
+        }
+    
+    }
+}
+    
+
+//aparecence none faz com que nao mostre os detalhe do campo onde esta sendo digitado
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    appearance: none;
+}
+
+input:focus {
+    outline: none;
+}
+
